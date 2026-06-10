@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Garante que não sobre borda branca em volta da página */
+body {
+  margin: 0;
+  background: #0a0d0b;
+}
