@@ -8,18 +8,18 @@ export const PRICE = {
 } as const;
 
 export const PLANILHAS: Planilha[] = [
-  { id: "01", tag: "Estoque",        name: "Controle de Estoque",       desc: "Entradas, saídas e saldo calculados sozinhos. Alertas de estoque mínimo pra você nunca mais perder venda por falta de produto.", images: ["SRC/assets/estoque/estoque.png"] },
-  { id: "02", tag: "Financeiro", name: "Controle - Financeiro", desc: "Controle receitas, despesas, investimentos e metas financeiras em um painel completo e fácil de usar.", images: ["SRC/assets/controle financeiro/controle financeiro.Png"] },
-  { id: "03", tag: "MEI", name: "Controle - MEI", desc: "Contas a pagar e a receber num só lugar. Saiba exatamente quanto entra, quanto sai e quanto sobra.", images: ["SRC/assets/Controle MEI/MEIcapa.jpeg", ] },
-  { id: "04", tag: "Organização", name: "Organização pessoal", desc: "Organize tarefas, hábitos, metas e compromissos em um único painel para ter mais foco e produtividade.", images: ["SRC/assets/gestão pessoal/gestao-capa.png"] },
-  { id: "05", tag: "Estudo", name: "Planejamento de estudos", desc: "Organize sua rotina, acompanhe seu desempenho e alcance suas metas com um método de estudos eficiente.", images: ["SRC/assets/estudo/estudos.png"] },
-  { id: "06", tag: "Metas", name: "Planejamento de Metas", desc: "Defina metas, acompanhe hábitos e organize sua rotina pra crescer com consistência.", images: ["SRC/assets/METAS/controle de metas capa.jpeg", ] },
-  { id: "07", tag: "Treino e dieta", name: "Controle de Treino e Dieta", desc: "Organize sua rotina fitness, acompanhe metas e evolua com dados claros e indicadores inteligentes.", images: ["SRC/assets/TreinaeDietas/treinocapa.jpeg"] },
+  { id: "01", tag: "Estoque",        name: "Controle de Estoque",       desc: "Entradas, saídas e saldo calculados sozinhos. Alertas de estoque mínimo pra você nunca mais perder venda por falta de produto.", images: ["/assets/estoque/estoque.png"] },
+  { id: "02", tag: "Financeiro", name: "Controle - Financeiro", desc: "Controle receitas, despesas, investimentos e metas financeiras em um painel completo e fácil de usar.", images: ["/assets/controle-financeiro/controle-financeiro.png"] },
+  { id: "03", tag: "MEI", name: "Controle - MEI", desc: "Contas a pagar e a receber num só lugar. Saiba exatamente quanto entra, quanto sai e quanto sobra.", images: ["/assets/controle-mei/meicapa.jpeg"] },
+  { id: "04", tag: "Organização", name: "Organização pessoal", desc: "Organize tarefas, hábitos, metas e compromissos em um único painel para ter mais foco e produtividade.", images: ["/assets/gestao-pessoal/gestao-capa.png"] },
+  { id: "05", tag: "Estudo", name: "Planejamento de estudos", desc: "Organize sua rotina, acompanhe seu desempenho e alcance suas metas com um método de estudos eficiente.", images: ["/assets/estudo/estudos.png"] },
+  { id: "06", tag: "Metas", name: "Planejamento de Metas", desc: "Defina metas, acompanhe hábitos e organize sua rotina pra crescer com consistência.", images: ["/assets/metas/capa.jpeg"] },
+  { id: "07", tag: "Treino e dieta", name: "Controle de Treino e Dieta", desc: "Organize sua rotina fitness, acompanhe metas e evolua com dados claros e indicadores inteligentes.", images: ["/assets/treino-e-dieta/treinocapa.jpeg"] },
 ];
 
 export const EBOOKS: Ebook[] = [
-  { name: "Claude + excel ", sub: "Aprendar o básico de IA com excel", value: "67", desc: "", image: "SRC/assets/ebooks/claude.jpeg" },
-  { name: "Gestão com planilhas", sub: "Como usar o excel para gerir seu negócio", value: "67", desc: "Estratégias de foco e produtividade pra você executar mais e travar menos.", image: "SRC/assets/ebooks/gestão total.jpeg" },
+  { name: "Claude + excel ", sub: "Aprendar o básico de IA com excel", value: "67", desc: "", image: "/assets/ebooks/claude.jpeg" },
+  { name: "Gestão com planilhas", sub: "Como usar o excel para gerir seu negócio", value: "67", desc: "Estratégias de foco e produtividade pra você executar mais e travar menos.", image: "/assets/ebooks/gestao-total.jpeg" },
 ];
 
 export const VALOR_STACK: StackItem[] = [
