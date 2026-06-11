@@ -23,7 +23,7 @@ export const EBOOKS: Ebook[] = [
 ];
 
 export const VALOR_STACK: StackItem[] = [
-  { label: "7 Planilhas Profissionais",       value: "70" },
+  { label: "7 Planilhas Profissionais",       value: "50" },
   { label: 'E-book "Do Caos ao Controle"',   value: "67", bonus: true },
   { label: 'E-book "Alta Performance"',       value: "67", bonus: true },
   { label: "Atualizações + acesso vitalício", value: "97", incluso: true },
